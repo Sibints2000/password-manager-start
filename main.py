@@ -18,6 +18,8 @@ nr_numbers = random.randint(2, 4)
 
 password_letters = [random.choice(letters) for _ in range(nr_letters)]
 
+for char in range(nr_symbols):
+    password_list += random.choice(symbols)
 
 for char in range(nr_numbers):
     password_list += random.choice(numbers)
