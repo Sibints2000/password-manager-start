@@ -12,7 +12,8 @@ def save():
     email = email_entry.get()
     password = password_entry.get()
 
-    messagebox.showinfo(title="Title", message="Message")
+    messagebox.askokcancel(title=website, message=f"These are the details entered: \nEmail: {email} \n"
+                                                  f"Password: {password} \nIs it ok to save?")
 
     with open("data.txt", "a") as data_file:
         data_file.write(f"{website} | {email} | {password}\n")
