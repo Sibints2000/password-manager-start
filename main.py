@@ -12,8 +12,9 @@ def save():
     email = email_entry.get()
     password = password_entry.get()
 
-    is_ok = messagebox.askokcancel(title=website, message=f"These are the details entered: \nEmail: {email} \n"
-                                                  f"Password: {password} \nIs it ok to save?")
+    is_ok = messagebox.askokcancel(title=website, message=f"These are the details entered: \n"
+                                                          f"Email: {email} \n Password: {password} \nIs it ok to save?")
+
     if is_ok:
         with open("data.txt", "a") as data_file:
             data_file.write(f"{website} | {email} | {password}\n")
