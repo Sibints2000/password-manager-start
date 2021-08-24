@@ -26,6 +26,7 @@ password_label.grid(column=0, row=3)
 
 # Entries
 website_entry = Entry()
+website_entry.grid(column=1, row=1)
 email_entry = Entry()
 password_entry = Entry()
 
