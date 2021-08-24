@@ -27,7 +27,7 @@ password_label.grid(column=0, row=3)
 # Entries
 website_entry = Entry()
 email_entry = Entry()
-
+password_entry = Entry()
 
 
 window.mainloop()
