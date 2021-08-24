@@ -8,3 +8,11 @@ from tkinter import *
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
 window.title("Password Manager")
+
+
+canvas = Canvas()
+
+
+
+
+window.mainloop()
