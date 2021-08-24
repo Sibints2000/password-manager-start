@@ -24,4 +24,10 @@ email_label.grid(column=0, row=2)
 password_label = Label(text="password")
 password_label.grid(column=0, row=3)
 
+# Entries
+website_entry = Entry()
+email_entry = Entry()
+
+
+
 window.mainloop()
