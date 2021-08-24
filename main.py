@@ -16,5 +16,7 @@ logo_img = PhotoImage(file="logo.png")
 canvas.create_image(100, 100, image=logo_img)
 canvas.pack()
 
+# Labels
+website_label = Label(text="Website")
 
 window.mainloop()
