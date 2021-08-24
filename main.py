@@ -18,10 +18,10 @@ canvas.grid(column1=1, row=0)
 
 # Labels
 website_label = Label(text="Website")
-website_label.grid(column=, row=1)
+website_label.grid(column=0, row=1)
 email_label = Label(text="Email/Username")
-email_label.grid(column=, row=2)
+email_label.grid(column=0, row=2)
 password_label = Label(text="password")
-password_label.grid(column=, row=3)
+password_label.grid(column=0, row=3)
 
 window.mainloop()
