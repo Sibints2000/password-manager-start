@@ -13,6 +13,7 @@ def save():
 
     with open("data.txt", "a") as data_file:
         data_file.write(f"{website} | {email} | {password}")
+        website_entry.delete(0, END)
 
 # ---------------------------- UI SETUP ------------------------------- #
 
