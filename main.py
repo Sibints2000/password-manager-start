@@ -27,6 +27,7 @@ password_label.grid(column=0, row=3)
 # Entries
 website_entry = Entry(width=42)
 website_entry.grid(column=1, row=1, columnspan=2)
+website_entry.focus()
 email_entry = Entry(width=42)
 email_entry.grid(column=1, row=2, columnspan=2)
 password_entry = Entry(width=24)
