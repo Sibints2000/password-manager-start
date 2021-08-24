@@ -5,6 +5,8 @@ from random import choice, randint, shuffle
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 
 # Password Generator Project
+
+
 def generate_password():
     letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
                'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P',
@@ -77,7 +79,7 @@ password_entry = Entry(width=24)
 password_entry.grid(column=1, row=3)
 
 # Buttons
-generate_password_button = Button(text="Generate Password")
+generate_password_button = Button(text="Generate Password", command=generate_password)
 generate_password_button.grid(column=2, row=3)
 add_button = Button(text="Add", width=35, command=save)
 add_button.grid(column=1, row=4, columnspan=2)
