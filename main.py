@@ -16,7 +16,7 @@ nr_letters = random.randint(8, 10)
 nr_symbols = random.randint(2, 4)
 nr_numbers = random.randint(2, 4)
 
-password_list = []
+password_letters = [random.choice(letters) for _ in range(nr_letters)]
 
 for char in range(nr_letters):
     password_list.append(random.choice(letters))
