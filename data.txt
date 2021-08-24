@@ -1,1 +1,2 @@
-Amazon | sibin@gmail.com | acma,c;.Ebay | sibin@gmail.com | qwerty
+Amazon | sibin@gmail.com | qwerty
+Ebay | sibin@gmail.com | 123456
