@@ -12,13 +12,14 @@ def save():
     email = email_entry.get()
     password = password_entry.get()
 
-    messagebox.askokcancel(title=website, message=f"These are the details entered: \nEmail: {email} \n"
+    is_ok = messagebox.askokcancel(title=website, message=f"These are the details entered: \nEmail: {email} \n"
                                                   f"Password: {password} \nIs it ok to save?")
+    if is_ok:
+        with open("data.txt", "a") as data_file:
+            data_file.write(f"{website} | {email} | {password}\n")
+            website_entry.delete(0, END)
+            password_entry.delete(0, END)
 
-    with open("data.txt", "a") as data_file:
-        data_file.write(f"{website} | {email} | {password}\n")
-        website_entry.delete(0, END)
-        password_entry.delete(0, END)
 
 # ---------------------------- UI SETUP ------------------------------- #
 
