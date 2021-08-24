@@ -5,6 +5,10 @@ from tkinter import *
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 
+def save():
+
+
+    with open("data.txt", "a") as data_file:
 
 
 # ---------------------------- UI SETUP ------------------------------- #
@@ -41,7 +45,7 @@ password_entry.grid(column=1, row=3)
 # Buttons
 generate_password_button = Button(text="Generate Password")
 generate_password_button.grid(column=2, row=3)
-add_button = Button(text="Add", width=35)
+add_button = Button(text="Add", width=35, command=)
 add_button.grid(column=1, row=4, columnspan=2)
 
 window.mainloop()
