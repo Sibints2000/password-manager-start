@@ -14,7 +14,7 @@ window.config(padx=20, pady=20)
 canvas = Canvas(height=200, width=200)
 logo_img = PhotoImage(file="logo.png")
 canvas.create_image(100, 100, image=logo_img)
-canvas.grid(column1=1, row=0)
+canvas.grid(column=1, row=0)
 
 # Labels
 website_label = Label(text="Website")
