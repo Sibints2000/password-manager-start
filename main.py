@@ -20,6 +20,7 @@ password_letters = [random.choice(letters) for _ in range(nr_letters)]
 password_symbols = [random.choice(symbols) for _ in range(nr_symbols)]
 password_numbers = [random.choice(numbers) for _ in range(nr_numbers)]
 
+password_list = password_letters + password_symbols + password_numbers
 
 random.shuffle(password_list)
 
