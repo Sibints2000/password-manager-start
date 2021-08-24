@@ -21,7 +21,7 @@ website_label = Label(text="Website")
 website_label.grid(column=0, row=1)
 email_label = Label(text="Email/Username")
 email_label.grid(column=0, row=2)
-password_label = Label(text="password")
+password_label = Label(text="Password")
 password_label.grid(column=0, row=3)
 
 # Entries
