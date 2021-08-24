@@ -18,5 +18,7 @@ canvas.pack()
 
 # Labels
 website_label = Label(text="Website")
+email_label = Label(text="Email/Username")
+
 
 window.mainloop()
