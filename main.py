@@ -12,7 +12,7 @@ def save():
     email = email_entry.get()
     password = password_entry.get()
 
-
+    messagebox.showinfo(title="Title", message="Message")
 
     with open("data.txt", "a") as data_file:
         data_file.write(f"{website} | {email} | {password}\n")
